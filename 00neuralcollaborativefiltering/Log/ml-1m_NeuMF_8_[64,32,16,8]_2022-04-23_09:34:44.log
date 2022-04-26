@@ -1,0 +1,25 @@
+NeuMF arguments: Namespace(batch_size=256, dataset='ml-1m', epochs=20, layers='[64,32,16,8]', learner='adam', lr=0.001, mf_pretrain='Pretrain/ml-1m_GMF_8_2022-04-22_22:26:07.h5', mlp_pretrain='Pretrain/ml-1m_MLP_[64,32,16,8]_2022-04-22_22:28:53.h5', num_factors=8, num_neg=4, out=1, path='Data/', reg_layers='[0,0,0,0]', reg_mf=0, verbose=1) 
+Load data done [10.2 s]. #user=6040, #item=3706, #train=994169, #test=6040
+Load pretrained GMF (Pretrain/ml-1m_GMF_8_2022-04-22_22:26:07.h5) and MLP (Pretrain/ml-1m_MLP_[64,32,16,8]_2022-04-22_22:28:53.h5) models done. 
+Init: HR = 0.6758, NDCG = 0.3987	 evaluate_time [13.1 s]
+Iteration 0 [50.4 s]: HR = 0.6757, NDCG = 0.4003, loss = 0.2374, evaluate_time  [2.1 s]
+Iteration 1 [48.5 s]: HR = 0.6760, NDCG = 0.4036, loss = 0.2357, evaluate_time  [2.1 s]
+Iteration 2 [48.4 s]: HR = 0.6727, NDCG = 0.4020, loss = 0.2343, evaluate_time  [2.1 s]
+Iteration 3 [48.1 s]: HR = 0.6733, NDCG = 0.4024, loss = 0.2331, evaluate_time  [2.1 s]
+Iteration 4 [48.1 s]: HR = 0.6740, NDCG = 0.4042, loss = 0.2318, evaluate_time  [2.1 s]
+Iteration 5 [48.9 s]: HR = 0.6758, NDCG = 0.4020, loss = 0.2309, evaluate_time  [2.1 s]
+Iteration 6 [48.4 s]: HR = 0.6760, NDCG = 0.4041, loss = 0.2298, evaluate_time  [2.1 s]
+Iteration 7 [48.1 s]: HR = 0.6775, NDCG = 0.4032, loss = 0.2291, evaluate_time  [2.1 s]
+Iteration 8 [47.8 s]: HR = 0.6773, NDCG = 0.3999, loss = 0.2282, evaluate_time  [2.1 s]
+Iteration 9 [48.1 s]: HR = 0.6780, NDCG = 0.4068, loss = 0.2275, evaluate_time  [2.1 s]
+Iteration 10 [48.2 s]: HR = 0.6821, NDCG = 0.4064, loss = 0.2271, evaluate_time  [2.1 s]
+Iteration 11 [48.1 s]: HR = 0.6747, NDCG = 0.4030, loss = 0.2263, evaluate_time  [2.1 s]
+Iteration 12 [48.7 s]: HR = 0.6737, NDCG = 0.4046, loss = 0.2260, evaluate_time  [2.1 s]
+Iteration 13 [48.2 s]: HR = 0.6690, NDCG = 0.4030, loss = 0.2251, evaluate_time  [2.1 s]
+Iteration 14 [48.2 s]: HR = 0.6710, NDCG = 0.3992, loss = 0.2245, evaluate_time  [2.1 s]
+Iteration 15 [48.1 s]: HR = 0.6786, NDCG = 0.4046, loss = 0.2240, evaluate_time  [2.1 s]
+Iteration 16 [48.1 s]: HR = 0.6750, NDCG = 0.4067, loss = 0.2237, evaluate_time  [2.1 s]
+Iteration 17 [48.2 s]: HR = 0.6800, NDCG = 0.4086, loss = 0.2233, evaluate_time  [2.1 s]
+Iteration 18 [48.1 s]: HR = 0.6841, NDCG = 0.4084, loss = 0.2228, evaluate_time  [2.1 s]
+Iteration 19 [48.1 s]: HR = 0.6763, NDCG = 0.4029, loss = 0.2225, evaluate_time  [2.1 s]
+End. Best Iteration 18:  HR = 0.6841, NDCG = 0.4084. 
