@@ -1,0 +1,35 @@
+name: rs_ncf
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - https://mirrors.aliyun.com/anaconda/pkgs/main
+  - https://mirrors.aliyun.com/anaconda/pkgs/free
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=4.5=1_gnu
+  - ca-certificates=2022.3.29=h06a4308_0
+  - certifi=2020.6.20=pyhd3eb1b0_3
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=9.3.0=h5101ec6_17
+  - libgomp=9.3.0=h5101ec6_17
+  - libstdcxx-ng=9.3.0=hd4cf53a_17
+  - ncurses=6.3=h7f8727e_2
+  - python=2.7.18=ha1903f6_2
+  - readline=8.1.2=h7f8727e_1
+  - setuptools=36.4.0=py27_1
+  - sqlite=3.38.2=hc218d9a_0
+  - tk=8.6.11=h1ccaba5_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - zlib=1.2.12=h7f8727e_1
+  - pip:
+    - h5py==2.10.0
+    - keras==1.0.7
+    - numpy==1.16.6
+    - pip==20.3.4
+    - pyyaml==5.4.1
+    - scipy==1.2.3
+    - six==1.16.0
+    - theano==0.8.0
+prefix: /home/junjiang/anaconda3/envs/rs_ncf
